@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Ejercicios S2-3 para el Curso de ReactJs Avanzado en OpenBootcamp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Ejercicio 1
 
-## Available Scripts
+El objetivo de este ejercicio es que creéis un contador utilizando el hook personalizado useCounter, el contador deberá mostrar en todo momento su valor, además deberéis implementar las funciones:
 
-In the project directory, you can run:
+ - increment, para aumentar su valor.
 
-### `npm start`
+ - decrement, para reducirlo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ - reset, para reiniciar su estado.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ - Una vez tengáis esto, también añadiréis:
 
-### `npm test`
+ - Un valor máximo y uno mínimo.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Un valor predeterminado para el contador.
 
-### `npm run build`
+ - Añadir un step para el incremento o decremento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Ejercicio 2
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Partiendo del hook personalizado useList que se creó en la sesión, ampliadlo con lo siguiente:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ - Una función clear para limpiar(vaciar) la lista de elementos
 
-### `npm run eject`
+ - Otra función sort para ordenar los elementos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ - Una última función que se encargue de invertir los elementos.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+// git branch -M main
+// git remote add origin git@github.com:MrBluegru/jercicios-s2-3.git
+// git push -u origin main

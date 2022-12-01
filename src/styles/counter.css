@@ -1,0 +1,35 @@
+.counterC {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 5rem;
+  margin: 2rem;
+}
+
+.btnCounter {
+  margin: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #2a2a40;
+  color: white;
+}
+
+.remove {
+  color: yellow;
+}
+
+.add {
+  color: rgb(63, 205, 50);
+}
+
+.reset {
+  color: rgb(205, 50, 50);
+}
+
+.btnCounter:hover {
+  color: #2a2a40;
+  background-color: white;
+}
