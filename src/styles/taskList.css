@@ -1,0 +1,7 @@
+.taskListDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 2rem;
+}
