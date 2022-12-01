@@ -28,6 +28,3 @@ Partiendo del hook personalizado useList que se creó en la sesión, ampliadlo c
 
  - Una última función que se encargue de invertir los elementos.
 
-// git branch -M main
-// git remote add origin git@github.com:MrBluegru/jercicios-s2-3.git
-// git push -u origin main
